@@ -8,9 +8,6 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-import 'jquery'
-import 'bootstrap'
-
 // Tooltip function
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()  // jQuery - to be global
