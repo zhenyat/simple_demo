@@ -15,3 +15,5 @@ import 'bootstrap'
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()  // jQuery - to be global
 })
+require("trix")
+require("@rails/actiontext")
