@@ -34,3 +34,10 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore Mac OS X sys files
+*.DS_Store
+*/.DS_Store
+
+# Ignore NetBeans files
+/nbproject/private/
